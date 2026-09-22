@@ -1,0 +1,37 @@
+name: 사이트 배포 (구글 문서 → 공지/뉴스 반영)
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "*/15 * * * *"   # 15분마다 구글 문서를 읽어 다시 배포
+  workflow_dispatch:          # Actions 탭에서 'Run workflow'로 즉시 반영
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 구글 문서에서 공지·뉴스 읽기
+        run: node scripts/fetch-docs.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
