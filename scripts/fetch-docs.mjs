@@ -168,10 +168,13 @@ const hash = s => crypto.createHash('sha1').update(s).digest('hex').slice(0, 12)
 
 async function main() {
   const html = await loadHtml();
-  if (html == null) return;
-  const data = parse(blocksOf(html));
-  const offline = !!process.argv[2];
-  for (const kind of ['notice', 'news']) {
+  let data;
+  if (html == null) {           // 문서 미설정: 기존 공지·뉴스는 유지하고 교수 사진만 다시 반영
+    try { data = JSON.parse(fs.readFileSync(OUT_JSON, 'utf8')); } catch { data = { settings: {}, notice: [], news: [] }; }
+    data.faculty = {};
+  } else data = parse(blocksOf(html));
+  const offline = !!process.argv[2] || html == null;
+  if (html != null) for (const kind of ['notice', 'news']) {
     const list = data[kind].filter(p => p.visible !== false && p.title);
     const used = new Set();
     for (const p of list) {
@@ -197,8 +200,9 @@ async function main() {
     }
   }
   // 저장소에 직접 올린 교수 사진(assets/faculty/이름.jpg)도 반영
-  if (fs.existsSync(FAC_DIR)) for (const f of fs.readdirSync(FAC_DIR)) {
-    const m = f.match(/^([가-힣]{2,5})\.(jpe?g|png|webp)$/i);
+  //   '김동호.jpg', '김동호 교수.png', '김동호_교수님.webp' 모두 인식 (맥 한글 파일명도 처리)
+  if (fs.existsSync(FAC_DIR)) for (const f of fs.readdirSync(FAC_DIR).sort()) {
+    const m = f.normalize('NFC').match(/^([가-힣]{2,5}?)[\s_-]*(?:교수님?)?\.(jpe?g|png|webp)$/i);
     if (m && !data.faculty[m[1]]) data.faculty[m[1]] = `assets/faculty/${f}`;
   }
   data.updated = new Date().toISOString();
