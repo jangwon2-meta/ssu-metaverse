@@ -1,0 +1,70 @@
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans KR","Manrope","Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:#121212;background:#fff;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:break-word}
+html[lang=en] body{font-family:"Manrope","Noto Sans KR",sans-serif}
+.en{font-family:"Manrope","Noto Sans KR",sans-serif}
+h1,h2,h3{text-wrap:balance;line-height:1.1}p{text-wrap:pretty}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.eyebrow{font-size:13px;letter-spacing:.18em;color:#FE0197;font-weight:700}
+.pill{display:inline-flex;align-items:center;gap:10px;border-radius:999px;font-weight:700}
+.arrow{width:16px;height:16px}
+.container{max-width:1233px;margin:0 auto;padding-inline:24px}
+.blk{padding-block:28px}
+.blk.tight{padding-block:12px}
+:focus-visible{outline:2px solid #0078FF;outline-offset:2px}
+
+/* header */
+.hd{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid #EAEAEA}
+.hd .container{display:flex;align-items:center;gap:20px;height:68px}
+.logo img{height:30px;width:auto}
+.nav{margin-left:auto;display:flex;align-items:center;gap:2px}
+.nav>li{list-style:none;position:relative}
+.nav>li>a{display:flex;align-items:center;gap:4px;padding:10px 12px;font-size:15px;font-weight:500;color:#333;border-radius:8px;font-family:"Manrope","Noto Sans KR",sans-serif}
+.nav>li>a:hover,.nav>li.on>a{color:#121212}
+.nav>li.on>a{font-weight:800}
+.nav .caret{width:12px;height:12px;transition:transform .2s}
+.nav .dd{position:absolute;top:100%;left:0;min-width:190px;background:#fff;border:1px solid #E5E5E5;border-radius:12px;box-shadow:0 18px 40px rgba(0,0,0,.08);padding:8px;display:none;flex-direction:column}
+.nav>li:hover .dd,.nav>li:focus-within .dd{display:flex}
+.nav .dd a{padding:10px 12px;border-radius:8px;font-size:14px;color:#444}
+.nav .dd a:hover{background:#F4F4F4;color:#121212}
+.nav .dd a.on{color:#FE0197;font-weight:700}
+.tg{display:inline-flex;gap:2px;border:1px solid #C9C9C9;border-radius:999px;padding:2px;font-size:13px;flex:none}
+.tg button{border:0;background:transparent;color:#666;font:inherit;font-weight:700;padding:5px 11px;border-radius:999px;cursor:pointer;font-family:"Manrope",sans-serif}
+.tg button.on{background:#121212;color:#fff}
+.burger{display:none;margin-left:auto;width:44px;height:44px;border:0;background:transparent;border-radius:10px;cursor:pointer;align-items:center;justify-content:center}
+.burger span,.burger span:before,.burger span:after{display:block;width:22px;height:2px;background:#121212;border-radius:2px;position:relative;content:""}
+.burger span:before{position:absolute;top:-7px}.burger span:after{position:absolute;top:7px}
+@media(max-width:960px){
+ .burger{display:inline-flex}
+ .hd .tg{margin-left:0}
+ .nav{position:fixed;inset:68px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 16px 24px;border-bottom:1px solid #E5E5E5;max-height:calc(100vh - 68px);overflow:auto;display:none}
+ .hd.open .nav{display:flex}
+ .nav>li>a{padding:14px 8px;font-size:17px;border-bottom:1px solid #F0F0F0;border-radius:0}
+ .nav .caret{display:none}
+ .nav .dd{position:static;display:flex;border:0;box-shadow:none;padding:0 0 8px 12px;min-width:0}
+ .nav .dd a{font-size:15px;padding:9px 8px}
+}
+
+/* sub navigation (tabs) */
+.subnav{border-bottom:1px solid #E5E5E5;background:#FAFAFA}
+.subnav .container{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.subnav .container::-webkit-scrollbar{display:none}
+.subnav a{flex:none;display:block;font-size:15px;font-weight:500;color:#777;padding:16px 14px 13px;border-bottom:3px solid transparent;white-space:nowrap}
+.subnav a:hover{color:#121212}
+.subnav a.on{font-weight:800;color:#121212;border-bottom-color:#FE0197}
+
+/* footer */
+.foot{margin-top:40px}
+
+/* mobile fixes */
+main{overflow-x:clip}
+@media(max-width:520px){
+ .s-a2 .k .w{font-size:24px;overflow-wrap:anywhere}
+ .s-p0 .stats,.s-p1 .stats{flex-wrap:wrap;gap:14px 18px}
+ .s-p0 .stats div,.s-p1 .stats div{padding-right:18px}
+ .s-p0 .stats b,.s-p1 .stats b{font-size:26px}
+ .s-hero .kicker{font-size:12px;letter-spacing:.12em}
+}
+/* faculty photos */
+[data-name] .ph[style*="background-image"] span,[data-name] .pic[style*="background-image"] span{display:none}

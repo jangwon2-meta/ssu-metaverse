@@ -1,0 +1,14 @@
+{
+ "settings": {},
+ "notice": [
+  {"id": "20260922-adm2027", "title": "2027학년도 전기 신입생 모집 안내", "title_en": "Spring 2027 New Student Admissions", "date": "2026-09-22", "date_disp": "2026.09.22", "category": "입학", "pinned": true, "link": "https://grad.ssu.ac.kr", "image": "", "summary": "",
+   "body": [{"type": "p", "html": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00 · 구술평가 10.31(토) · 합격자 발표 11.27(금) · 입학 2027.3.1"}, {"type": "p", "html": "※ 예정 일정입니다. 모집요강 공고 후 확정 일자로 갱신됩니다."}],
+   "text": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00"},
+  {"id": "20260922-open", "title": "가상융합대학원 홈페이지 개편 안내", "title_en": "Our new website is live", "date": "2026-09-22", "date_disp": "2026.09.22", "category": "일반", "pinned": false, "link": "", "image": "", "summary": "",
+   "body": [{"type": "p", "html": "숭실대학교 가상융합대학원 홈페이지가 새롭게 개편되었습니다. 공지사항과 뉴스는 이 게시판에서 확인하실 수 있습니다."}],
+   "text": "홈페이지가 새롭게 개편되었습니다."}
+ ],
+ "news": [],
+ "faculty": {},
+ "updated": "2026-09-22T00:00:00Z"
+}
