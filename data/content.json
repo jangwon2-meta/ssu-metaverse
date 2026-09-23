@@ -56,7 +56,7 @@
    "category": "행사",
    "pinned": false,
    "link": "https://www.newspim.com/news/view/20260619000651",
-   "image": "",
+   "image": "assets/posts/kmf2026.png",
    "summary": "6월 10~12일 코엑스 KMF 2026에서 로봇 원격제어 기술과 연구 성과를 선보였습니다.",
    "body": [
     {
@@ -83,7 +83,7 @@
    "category": "연구",
    "pinned": false,
    "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=115849",
-   "image": "",
+   "image": "assets/posts/acmmm2025.png",
    "summary": "멀티미디어 분야 최고 권위 국제학회 ACM MM 2025에 VR 콘서트 연구 2편이 채택되었습니다.",
    "body": [
     {
@@ -114,7 +114,7 @@
    "category": "수상",
    "pinned": false,
    "link": "https://www.asiatoday.co.kr/kn/view.php?key=20250716010009676",
-   "image": "",
+   "image": "assets/posts/arnold2025.png",
    "summary": "CVPR 2025 Embodied AI 워크숍에서 열린 세계대회에서 1위를 차지했습니다.",
    "body": [
     {
@@ -141,7 +141,7 @@
    "category": "연구",
    "pinned": false,
    "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=105031",
-   "image": "",
+   "image": "assets/posts/aaai2025.png",
    "summary": "김희원 교수 연구팀 학생들이 인공지능 분야 최우수 학회 AAAI 2025에서 연구를 발표했습니다.",
    "body": [
     {
