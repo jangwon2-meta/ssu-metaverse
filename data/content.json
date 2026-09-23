@@ -3,12 +3,48 @@
   "모집요강PDF": "https://drive.google.com/uc?export=download&id=1VS7b-vJn1V43xotIXoyzPaXErLNvX9kM"
  },
  "notice": [
-  {"id": "20260922-adm2027", "title": "2027학년도 전기 신입생 모집 안내", "title_en": "Spring 2027 New Student Admissions", "date": "2026-09-22", "date_disp": "2026.09.22", "category": "입학", "pinned": true, "link": "https://grad.ssu.ac.kr", "image": "", "summary": "",
-   "body": [{"type": "p", "html": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00 · 구술평가 10.31(토) · 합격자 발표 11.27(금) · 입학 2027.3.1"}, {"type": "p", "html": "※ 예정 일정입니다. 모집요강 공고 후 확정 일자로 갱신됩니다."}],
-   "text": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00"},
-  {"id": "20260922-open", "title": "가상융합대학원 홈페이지 개편 안내", "title_en": "Our new website is live", "date": "2026-09-22", "date_disp": "2026.09.22", "category": "일반", "pinned": false, "link": "", "image": "", "summary": "",
-   "body": [{"type": "p", "html": "숭실대학교 가상융합대학원 홈페이지가 새롭게 개편되었습니다. 공지사항과 뉴스는 이 게시판에서 확인하실 수 있습니다."}],
-   "text": "홈페이지가 새롭게 개편되었습니다."}
+  {
+   "id": "20260922-adm2027",
+   "title": "2027학년도 전기 신입생 모집 안내",
+   "title_en": "Spring 2027 New Student Admissions",
+   "date": "2026-09-22",
+   "date_disp": "2026.09.22",
+   "category": "입학",
+   "pinned": true,
+   "link": "https://grad.ssu.ac.kr",
+   "image": "",
+   "summary": "",
+   "body": [
+    {
+     "type": "p",
+     "html": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00 · 구술평가 10.31(토) · 합격자 발표 11.27(금) · 입학 2027.3.1"
+    },
+    {
+     "type": "p",
+     "html": "※ 예정 일정입니다. 모집요강 공고 후 확정 일자로 갱신됩니다."
+    }
+   ],
+   "text": "원서 접수 2026.10.12(월) 10:00 – 10.21(수) 16:00"
+  },
+  {
+   "id": "20260922-open",
+   "title": "가상융합대학원 홈페이지 개편 안내",
+   "title_en": "Our new website is live",
+   "date": "2026-09-22",
+   "date_disp": "2026.09.22",
+   "category": "일반",
+   "pinned": false,
+   "link": "",
+   "image": "",
+   "summary": "",
+   "body": [
+    {
+     "type": "p",
+     "html": "숭실대학교 가상융합대학원 홈페이지가 새롭게 개편되었습니다. 공지사항과 뉴스는 이 게시판에서 확인하실 수 있습니다."
+    }
+   ],
+   "text": "홈페이지가 새롭게 개편되었습니다."
+  }
  ],
  "news": [
   {
@@ -37,6 +73,91 @@
     }
    ],
    "text": "KMF 2026 휴머노이드 로봇 원격제어 시연 DynScene VILLAIN EACL 2026 FEVER 1위 박진호 교수 윤예준 고민주 김연서"
+  },
+  {
+   "id": "20251110-acmmm2025",
+   "title": "이정진 교수 연구팀, ACM MM 2025에 정규논문 2편 게재",
+   "title_en": "Two full papers accepted at ACM MM 2025",
+   "date": "2025-11-10",
+   "date_disp": "2025.11.10",
+   "category": "연구",
+   "pinned": false,
+   "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=115849",
+   "image": "",
+   "summary": "멀티미디어 분야 최고 권위 국제학회 ACM MM 2025에 VR 콘서트 연구 2편이 채택되었습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "이정진 교수(글로벌미디어학부) 연구팀이 멀티미디어 분야 최고 권위 국제학회 <b>ACM International Conference on Multimedia 2025</b>에 정규논문 2편을 게재했습니다."
+    },
+    {
+     "type": "p",
+     "html": "첫 번째 논문 <b>VRMusicStage</b>는 고정 카메라로 촬영한 공연 영상을 생성형 AI로 몰입형 VR 콘텐츠로 변환하는 시스템입니다. 확산 모델과 다중 조건 ControlNet을 활용해 시공간적으로 일관된 고해상도 영상을 만들어 냅니다."
+    },
+    {
+     "type": "p",
+     "html": "두 번째 논문 <b>Bring the VibeOn</b>은 라이브 스트리밍 공연에서 현장의 열기를 함께 나눌 수 있도록 설계한 멀티모달 인터페이스입니다. LLM 기반 채팅, 이모지 추천, 아바타 응원, 앰비언트 시각화를 결합했으며 40명 대상 사용자 연구에서 사회적 연결감과 몰입도가 유의미하게 높아졌습니다."
+    },
+    {
+     "type": "p",
+     "html": "연구에는 임승규 석사과정생, 정석현·김경진 석박사통합과정생, 이세빈 석사과정생 등이 참여했습니다."
+    }
+   ],
+   "text": "이정진 교수 ACM MM 2025 VRMusicStage VibeOn VR 콘서트 임승규 정석현 김경진 이세빈"
+  },
+  {
+   "id": "20250716-arnold",
+   "title": "김희원 교수 연구팀, AI 로봇 조작 세계대회 ARNOLD Challenge 1위",
+   "title_en": "First place at the ARNOLD Challenge (CVPR 2025)",
+   "date": "2025-07-16",
+   "date_disp": "2025.07.16",
+   "category": "수상",
+   "pinned": false,
+   "link": "https://www.asiatoday.co.kr/kn/view.php?key=20250716010009676",
+   "image": "",
+   "summary": "CVPR 2025 Embodied AI 워크숍에서 열린 세계대회에서 1위를 차지했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "김희원 교수(글로벌미디어학부) 연구팀이 2025년 6월 11일부터 15일까지 미국 내슈빌에서 열린 <b>CVPR 2025 Embodied AI 워크숍</b>의 인공지능 로봇 조작 챌린지 세계대회(ARNOLD Challenge)에서 1위를 차지했습니다. 2024년 3위에 이은 성과입니다."
+    },
+    {
+     "type": "p",
+     "html": "연구팀은 <b>DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI</b>를 발표했습니다. 정적인 장면 데이터와 로봇 동작 데이터를 따로 만들지 않고 동시에 생성해 데이터의 다양성과 현실성을 크게 높인 것이 핵심입니다."
+    },
+    {
+     "type": "p",
+     "html": "대회에는 이상민·박성용 미디어학과 석사과정생, 김도원 글로벌미디어학부 4학년, 임채우 메타버스·문화콘텐츠학과 석사과정생이 참여했습니다."
+    }
+   ],
+   "text": "김희원 교수 ARNOLD Challenge CVPR 2025 1위 DynScene 이상민 박성용 김도원 임채우"
+  },
+  {
+   "id": "20250325-aaai2025",
+   "title": "최수영·박성용 학생, AAAI 2025에서 논문 발표",
+   "title_en": "Students present at AAAI 2025",
+   "date": "2025-03-25",
+   "date_disp": "2025.03.25",
+   "category": "연구",
+   "pinned": false,
+   "link": "http://www.dailysmart.co.kr/news/articleView.html?idxno=105031",
+   "image": "",
+   "summary": "김희원 교수 연구팀 학생들이 인공지능 분야 최우수 학회 AAAI 2025에서 연구를 발표했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "김희원 교수(글로벌미디어학부) 연구팀의 최수영 학생(글로벌미디어학부 4학년)과 박성용 석사과정생이 2025년 2월 25일부터 3월 4일까지 미국 필라델피아에서 열린 인공지능 분야 최우수 국제학술대회 <b>AAAI 2025</b>에서 논문을 발표했습니다."
+    },
+    {
+     "type": "p",
+     "html": "연구팀은 물방울·먼지·지문 등으로 오염된 스마트폰 카메라 렌즈 환경의 영상 복원 문제를 다루기 위해 <b>SIDL(Smartphone Images with Dirty Lenses)</b> 데이터셋을 구축했고, 기존 영상 복원 모델이 실제 렌즈 오염 문제를 충분히 해결하지 못한다는 점을 확인했습니다."
+    },
+    {
+     "type": "p",
+     "html": "김희원 교수는 학부생이 제1저자로 최상위 인공지능 학회에 논문을 게재한 첫 사례라고 밝혔습니다."
+    }
+   ],
+   "text": "최수영 박성용 AAAI 2025 SIDL 김희원 교수 영상 복원 데이터셋"
   },
   {
    "id": "20240912-hyunpan",
@@ -83,6 +204,33 @@
     }
    ],
    "text": "메타버스 융합대학원 사업 선정 과기정통부 55억 김동호 교수 석박사 20명"
+  },
+  {
+   "id": "20231025-acmmm-students",
+   "title": "이세빈·김다예 학생, 국제학회 ACM MM 공동 제1저자 논문 게재",
+   "title_en": "Undergraduates publish as co-first authors at ACM MM",
+   "date": "2023-10-25",
+   "date_disp": "2023.10.25",
+   "category": "연구",
+   "pinned": false,
+   "link": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02751926635776528",
+   "image": "",
+   "summary": "학부생 두 명이 공동 제1저자로 ACM Multimedia 정규논문을 게재했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "이정진 교수(글로벌미디어학부, 33Lab) 연구팀의 이세빈·김다예 학생이 국제학회 <b>ACM International Conference on Multimedia</b>에 공동 제1저자로 정규논문을 게재했습니다."
+    },
+    {
+     "type": "p",
+     "html": "논문은 가상 아바타 콘서트에서 시청 방식과 곡 장르가 관객 경험에 어떤 영향을 주는지를 분석하고, 몰입감 있는 경험을 위한 디자인 가이드라인을 제시했습니다. 버추얼 유튜버 등 메타버스·공간 컴퓨팅 환경의 가상 공연 콘텐츠에 활용될 수 있습니다."
+    },
+    {
+     "type": "p",
+     "html": "이정진 교수는 학생들이 관심 분야를 즐겁게 공부할 수 있는 환경을 마련한 것이 세계적 수준의 연구로 이어졌다고 말했습니다."
+    }
+   ],
+   "text": "이세빈 김다예 ACM MM 공동 제1저자 이정진 교수 아바타 콘서트 33Lab"
   }
  ],
  "faculty": {},
