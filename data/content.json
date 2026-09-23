@@ -75,6 +75,33 @@
    "text": "KMF 2026 휴머노이드 로봇 원격제어 시연 DynScene VILLAIN EACL 2026 FEVER 1위 박진호 교수 윤예준 고민주 김연서"
   },
   {
+   "id": "20260406-fever2026",
+   "title": "박건우 교수 연구팀, EACL 2026 FEVER 팩트체킹 경진대회 1위",
+   "title_en": "First place at the EACL 2026 FEVER fact-checking challenge",
+   "date": "2026-04-06",
+   "date_disp": "2026.04.06",
+   "category": "수상",
+   "pinned": false,
+   "link": "https://www.dhnews.co.kr/news/view/1065591235232464",
+   "image": "assets/posts/fever2026.png",
+   "summary": "멀티모달 팩트체킹 시스템 VILLAIN으로 국제 경진대회 1위를 차지했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "박건우 교수 연구팀이 <b>EACL 2026 FEVER 워크숍</b> 경진대회에서 1위를 차지했습니다. 웹에서 수집한 이미지와 텍스트 주장을 놓고 사실 여부를 가려내는 과제로, 근거 품질과 검증 정확도 등 주요 평가 지표에서 최고 점수를 받았습니다."
+    },
+    {
+     "type": "p",
+     "html": "연구팀이 개발한 <b>VILLAIN</b>은 시각 모델과 언어 모델을 다중 에이전트 협업 구조로 결합한 멀티모달 팩트체킹 시스템입니다. 온라인 허위정보 탐지에 활용할 수 있습니다."
+    },
+    {
+     "type": "p",
+     "html": "연구에는 정재윤·윤예준 연구원이 참여했으며, 마음AI·어도비 리서치와 함께 팀을 이뤘습니다."
+    }
+   ],
+   "text": "박건우 교수 EACL 2026 FEVER 1위 VILLAIN 멀티모달 팩트체킹 정재윤 윤예준"
+  },
+  {
    "id": "20251110-acmmm2025",
    "title": "이정진 교수 연구팀, ACM MM 2025에 정규논문 2편 게재",
    "title_en": "Two full papers accepted at ACM MM 2025",
@@ -104,6 +131,29 @@
     }
    ],
    "text": "이정진 교수 ACM MM 2025 VRMusicStage VibeOn VR 콘서트 임승규 정석현 김경진 이세빈"
+  },
+  {
+   "id": "20250923-openlab",
+   "title": "메타버스·문화콘텐츠학과 입학설명회 및 오픈랩 개최",
+   "title_en": "Admissions briefing and open lab",
+   "date": "2025-09-23",
+   "date_disp": "2025.09.23",
+   "category": "행사",
+   "pinned": false,
+   "link": "https://www.dt.co.kr/article/12019649",
+   "image": "",
+   "summary": "재학생 연구 성과 발표와 연구실 체험을 함께 진행했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "9월 12일 메타버스·문화콘텐츠학과 입학설명회와 오픈랩이 열렸습니다. 예비 대학원생을 대상으로 교육과정을 소개하고, 재학생들의 연구 성과 발표와 연구실 체험 기회를 함께 제공했습니다."
+    },
+    {
+     "type": "p",
+     "html": "학과는 정보통신기획평가원의 지원을 받아 2024년부터 2029년까지 6년간 총 55억 원의 정부 지원을 받고 있습니다. 행사는 김동호 교수(IT대학 글로벌미디어학부)가 이끄는 대학원 사업단이 주관했습니다."
+    }
+   ],
+   "text": "입학설명회 오픈랩 메타버스 문화콘텐츠학과 김동호 교수 연구실 체험"
   },
   {
    "id": "20250716-arnold",
@@ -158,6 +208,33 @@
     }
    ],
    "text": "최수영 박성용 AAAI 2025 SIDL 김희원 교수 영상 복원 데이터셋"
+  },
+  {
+   "id": "20241128-averitec",
+   "title": "박건우 교수 연구팀, 자동 팩트체킹 국제대회 AVeriTeC 2위",
+   "title_en": "Second place at the AVeriTeC automated fact-checking challenge",
+   "date": "2024-11-28",
+   "date_disp": "2024.11.28",
+   "category": "수상",
+   "pinned": false,
+   "link": "https://m.etnews.com/20241128000146",
+   "image": "",
+   "summary": "EMNLP 2024 FEVER 워크숍 경진대회에서 2위를 기록했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "박건우 교수 연구팀이 미국 마이애미에서 열린 <b>EMNLP 2024 FEVER 워크숍</b>의 자동 팩트체킹 국제대회 AVeriTeC에서 2위를 차지했습니다."
+    },
+    {
+     "type": "p",
+     "html": "연구팀이 개발한 <b>HerO</b>는 메타의 라마(Llama) 공개 언어모델을 기반으로 만든 팩트체킹 시스템으로, 기존 모델 대비 성능을 크게 끌어올렸습니다. 폐쇄형 상용 모델에 의존하지 않고 공개 언어모델을 직접 학습시켜 성과를 낸 점이 의미가 있습니다."
+    },
+    {
+     "type": "p",
+     "html": "대회에는 윤예준 지능형반도체학과 석사과정생과 정재윤 연구원이 참여했으며, 숭실대·마음AI·어도비 리서치가 함께 HUMANE 팀으로 출전했습니다."
+    }
+   ],
+   "text": "박건우 교수 AVeriTeC EMNLP 2024 FEVER 2위 HerO 윤예준 정재윤"
   },
   {
    "id": "20240912-hyunpan",
