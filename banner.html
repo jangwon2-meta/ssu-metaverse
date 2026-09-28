@@ -13,7 +13,6 @@
 html,body{margin:0;height:100%;overflow:hidden;background:#fff}
 body{font-family:"Noto Sans KR","Apple SD Gothic Neo",sans-serif;color:var(--ink);word-break:keep-all}
 a.bn{display:block;color:inherit;text-decoration:none;transform-origin:0 0;position:absolute;left:0;top:0;overflow:hidden;background:#fff}
-.bn[hidden]{display:none!important}
 .bn .rel{position:relative}
 .dfly{position:absolute;right:0;-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent);mask-image:linear-gradient(to bottom,#000 80%,transparent)}
 .chip{padding:6px 14px;border-radius:999px;background:#fff;font-size:14px;font-weight:700;color:var(--ink)}
@@ -34,21 +33,6 @@ a.bn{display:block;color:inherit;text-decoration:none;transform-origin:0 0;posit
 #wide .date{font-size:30px}
 #wide .logo{position:absolute;height:28px;width:auto;left:887px;top:15px}
 
-/* 세로형 400×500 (좁은 화면) */
-#tall{width:400px;height:500px;padding:28px;display:flex;flex-direction:column;justify-content:flex-end}
-#tall .dfly{top:14px;width:230px;-webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent);mask-image:linear-gradient(to bottom,#000 78%,transparent)}
-#tall .logo{position:absolute;left:28px;top:28px;height:22px;width:auto}
-#tall .sub{font-size:15px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
-#tall .ttl{margin-top:2px;font-size:58px;font-weight:900;line-height:1.05;letter-spacing:-.045em}
-#tall .box{margin-top:14px;padding:14px 16px;border-radius:16px;background:var(--accent);display:flex;flex-direction:column;gap:8px}
-#tall .msg{font-size:19px;font-weight:900;line-height:1.35;letter-spacing:-.03em;color:#fff}
-#tall .hl{padding:0 5px;border-radius:5px}
-#tall .chips{display:flex;flex-wrap:wrap;gap:4px}
-#tall .chip{padding:4px 9px;font-size:12px}
-#tall .to{font-size:15px;font-weight:900;letter-spacing:-.02em;color:#fff}
-#tall .row{margin-top:18px;display:flex;align-items:center;gap:10px}
-#tall .pill{padding:5px 11px;font-size:13px}
-#tall .date{font-size:21px}
 </style>
 </head>
 <body>
@@ -63,31 +47,9 @@ a.bn{display:block;color:inherit;text-decoration:none;transform-origin:0 0;posit
 <div class="rel row"><span class="pill">원서 접수</span><span class="date">2026.10.06(화) – 10.16(금)</span><img class="logo" src="assets/logo.png" alt="Soongsil University 가상융합대학원"></div>
 </a>
 
-<a class="bn" id="tall" href="education.html" target="_top" aria-label="2027학년도 전기 신입생 모집 — 입학 안내 보기" hidden>
-<img class="dfly" src="assets/banner-dragonfly.webp" alt="">
-<img class="logo" src="assets/logo.png" alt="Soongsil University 가상융합대학원">
-<div class="rel sub">숭실대학교 가상융합대학원 · 2027학년도 전기</div>
-<div class="rel ttl">신입생 모집</div>
-<div class="rel box">
-<div class="msg"><span class="hl">전공과 관계없이</span> 누구나 지원</div>
-<div class="chips"><span class="chip">인문</span><span class="chip">사회</span><span class="chip">예술</span><span class="chip">디자인</span><span class="chip">공학</span><span class="chip">자연과학</span></div>
-<div class="to">→ XR · AI · 콘텐츠 융합 연구</div>
-</div>
-<div class="rel row"><span class="pill">원서 접수</span><span class="date">2026.10.06(화) – 10.16(금)</span></div>
-</a>
-
 <script>
-// 창 비율에 따라 가로형/세로형을 고르고, 창 너비에 맞춰 확대·축소합니다.
-(function(){
- var w=document.getElementById('wide'),t=document.getElementById('tall');
- function fit(){
-  var W=window.innerWidth,H=window.innerHeight||1,wideMode=W/H>1.5;
-  var on=wideMode?w:t,off=wideMode?t:w,bw=wideMode?1140:400;
-  off.hidden=true;on.hidden=false;
-  on.style.transform='scale('+(W/bw)+')';
- }
- fit();window.addEventListener('resize',fit);
-})();
+// 창 너비에 맞춰 1140×360 배너를 확대·축소합니다.
+(function(){var w=document.getElementById('wide');function fit(){w.style.transform='scale('+(window.innerWidth/1140)+')'}fit();window.addEventListener('resize',fit)})();
 </script>
 </body>
 </html>
