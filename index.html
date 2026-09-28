@@ -103,7 +103,7 @@
  try{var until=+localStorage.getItem(KEY);if(until&&Date.now()<until)return}catch(e){}
  function close(){pop.hidden=true;document.removeEventListener('keydown',onKey)}
  function onKey(e){if(e.key==='Escape')close()}
- document.getElementById('promo-frame').src='banner.html?v=20260928c';
+ document.getElementById('promo-frame').src='banner.html?v=20260928d';
  pop.hidden=false;document.addEventListener('keydown',onKey);
  pop.addEventListener('click',function(e){if(e.target===pop)close()});
  document.getElementById('promo-close').addEventListener('click',close);
