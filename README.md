@@ -11,7 +11,7 @@ GitHub Pages로 운영하는 정적 홈페이지입니다. 공지사항·뉴스�
 | Education — 입학 안내 / 커리큘럼 | `education.html` · `curriculum.html` |
 | People — 교수진 / 연구원 | `people.html` · `researchers.html` |
 | Notice · News | `notice.html` · `news.html` |
-| Faculty — 시설·공간 / 장비 | `facilities.html` · `equipment.html` |
+| Facilities — 시설·공간 / 장비 | `facilities.html` · `equipment.html` |
 
 ## 공지·뉴스 올리기 (구글 문서)
 
