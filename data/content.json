@@ -215,6 +215,49 @@
    "text": "박건우 교수 EACL 2026 FEVER 1위 VILLAIN 멀티모달 팩트체킹 정재윤 윤예준"
   },
   {
+   "id": "20260313-rmit-seminar",
+   "title": "RMIT 베트남과 국제 공동 세미나 「Between Intelligence and Experience」 개최",
+   "title_en": "International Joint Seminar 2026 with RMIT Vietnam: Between Intelligence and Experience",
+   "date": "2026-03-13",
+   "date_disp": "2026.03.13",
+   "category": "행사",
+   "pinned": false,
+   "link": "",
+   "image": "assets/posts/rmit2026-thumb.jpg",
+   "summary": "3월 13일 RMIT 베트남 사이공 사우스 캠퍼스에서 AI·디자인·경험 미디어를 주제로 국제 공동 세미나를 열었습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "가상융합대학원은 3월 13일 베트남 호찌민의 RMIT 베트남 사이공 사우스 캠퍼스에서 RMIT 베트남 커뮤니케이션&디자인 스쿨(School of Communication &amp; Design)과 함께 <b>International Joint Seminar 2026</b>을 열었습니다. 숭실대학교 가상융합대학원과 문화콘텐츠기술연구소가 함께 참여했습니다."
+    },
+    {
+     "type": "p",
+     "html": "세미나 주제는 <b>「Between Intelligence and Experience: AI, Design, and Experiential Media in Convergence Research」</b>입니다. 두 기관의 교수진과 연구원이 AI, 몰입형 미디어, 디자인 혁신, 학제 간 실천을 아우르는 최신 연구를 짧은 발표로 공유했습니다. VR 환경, 멀티모달 인터페이스, 스페큘러티브 디자인, 경험 기술 등 다양한 주제가 다뤄졌습니다."
+    },
+    {
+     "type": "p",
+     "html": "<b>발표</b><br>1. Bring the VibeOn: 라이브 스트리밍 공연에서 감정 경험을 공유하는 멀티모달 인터페이스 디자인 — 김경진 (숭실대)<br>2. Learning to Live with Water: 메콩 델타에서 필리핀까지, 홍수 적응형 공동체를 함께 만드는 초국가적 탐구 — Geomilie Tumamao-Guittap (RMIT 베트남)<br>3. VRMusicStage: 고정 카메라 음악 무대 영상을 몰입형 VR 콘텐츠로 변환하는 시스템 — 정석현 (숭실대)<br>4. “HUMAN-LEARNING”: 스페큘러티브 디자인에서 체화된 인공 미학으로 — Giang Nguyen Hoang (RMIT 베트남)<br>5. 디스포지티프 기반 환경 디자인이 6DoF VR 환경에서 사용자의 시선과 이동 행동에 미치는 영향: 아이트래킹 실험 연구 — 이채림 (숭실대)<br>6. Heritage Reimagination: 문화유산 보존에서 디자인의 미래를 구상하는 프레임워크 — Giang Hung Nguyen (RMIT 베트남)<br>7. 비정형 금융 데이터 해석으로 본 시장 반응 메커니즘: 뉴스 감성에서 공시 영향까지 — 조영현 (숭실대)"
+    },
+    {
+     "type": "p",
+     "html": "이번 세미나는 두 기관의 학술 교류와 지속적인 연구 협력을 이어가는 자리가 됐습니다."
+    },
+    {
+     "type": "p",
+     "html": "<b>일시</b> 2026년 3월 13일(금) · <b>장소</b> RMIT 베트남 사이공 사우스 캠퍼스 · <b>주최</b> RMIT Vietnam School of Communication &amp; Design × 숭실대학교 가상융합대학원 · 문화콘텐츠기술연구소"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/rmit2026-1.jpg"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/rmit2026-2.jpg"
+    }
+   ],
+   "text": "International Joint Seminar 2026 RMIT Vietnam 베트남 Between Intelligence and Experience AI Design Experiential Media 김경진 정석현 이채림 조영현 VibeOn VRMusicStage 문화콘텐츠기술연구소"
+  },
+  {
    "id": "20251110-acmmm2025",
    "title": "이정진 교수 연구팀, ACM MM 2025에 정규논문 2편 게재",
    "title_en": "Two full papers accepted at ACM MM 2025",
