@@ -254,6 +254,53 @@
    "text": "International Joint Seminar 2026 RMIT Vietnam 베트남 Between Intelligence and Experience AI Design Experiential Media 김경진 정석현 이채림 조영현 VibeOn VRMusicStage 문화콘텐츠기술연구소"
   },
   {
+   "id": "20251218-siggraph-asia",
+   "title": "SIGGRAPH Asia 2025 참관 및 대학원 워크숍",
+   "title_en": "SIGGRAPH Asia 2025 visit and graduate school workshop",
+   "date": "2025-12-18",
+   "date_disp": "2025.12.18",
+   "category": "행사",
+   "pinned": false,
+   "link": "https://asia.siggraph.org/2025/",
+   "image": "assets/posts/siggraph2025-thumb.jpg",
+   "summary": "12월 15~18일 홍콩에서 열린 SIGGRAPH Asia 2025를 참관하고 대학원 워크숍을 함께 진행했습니다.",
+   "body": [
+    {
+     "type": "p",
+     "html": "메타버스·문화콘텐츠학과 대학원생과 교수진이 12월 15일부터 18일까지 홍콩에서 열린 컴퓨터 그래픽스·인터랙티브 기술 분야 국제 학회 <b>SIGGRAPH Asia 2025</b>를 참관했습니다."
+    },
+    {
+     "type": "p",
+     "html": "3학기 이상 재학생에게 해외 학회를 직접 경험하고 연구 성과를 발표할 기회를 주기 위해 마련한 프로그램으로, 참가자들은 기술 세션과 포스터·전시를 둘러보며 최신 연구 동향을 살폈습니다."
+    },
+    {
+     "type": "p",
+     "html": "학회 기간에는 메타버스융합대학원(현 가상융합대학원) 워크숍도 함께 열어, 연구실 간 교류를 넓히고 팀워크를 다지는 시간을 가졌습니다."
+    },
+    {
+     "type": "p",
+     "html": "<b>기간</b> 2025년 12월 15일(월)–18일(목) · <b>장소</b> 홍콩 SIGGRAPH Asia 2025 · <b>주최</b> 메타버스융합대학원 사업단"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/siggraph2025-1.jpg"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/siggraph2025-2.jpg"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/siggraph2025-3.jpg"
+    },
+    {
+     "type": "img",
+     "src": "assets/posts/siggraph2025-4.jpg"
+    }
+   ],
+   "text": "SIGGRAPH Asia 2025 홍콩 학회 참관 워크숍 컴퓨터 그래픽스 메타버스 문화콘텐츠학과"
+  },
+  {
    "id": "20251215-humseminar4",
    "title": "메타버스 인문 세미나 No.4 「가이아적 상상력: 연결된 존재들의 세계 만들기」",
    "title_en": "Metaverse Humanities Seminar No.4: Gaian Imagination: Worlding with Connected Beings",
