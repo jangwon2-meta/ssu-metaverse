@@ -29,6 +29,8 @@ jobs:
           node-version: 20
       - name: 구글 문서에서 공지·뉴스 읽기
         run: node scripts/fetch-docs.mjs
+      - name: 비공개 페이지 배포 제외 (연구원 명단)
+        run: rm -f researchers.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
