@@ -9,7 +9,7 @@ GitHub Pages로 운영하는 정적 홈페이지입니다. 공지사항·뉴스�
 | Home | `index.html` |
 | About — 학과 소개 / 연구 분야 / 전공·학위 과정 | `about.html` · `research.html` · `majors.html` |
 | Education — 입학 안내 / 커리큘럼 | `education.html` · `curriculum.html` |
-| People — 교수진 / 연구원 | `people.html` · `researchers.html` |
+| People — 교수진 | `people.html` (연구원 명단 `researchers.html`은 저장소에만 두고 사이트에는 배포하지 않음) |
 | Notice · News | `notice.html` · `news.html` |
 | Facilities — 시설·공간 / 장비 | `facilities.html` · `equipment.html` |
 
